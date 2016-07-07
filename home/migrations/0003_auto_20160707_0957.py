@@ -16,7 +16,6 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('wagtaildocs', '0007_merge'),
-        ('wagtailcore', '0029_auto_20160707_0957'),
         ('wagtailimages', '0013_make_rendition_upload_callable'),
         ('home', '0002_create_homepage'),
     ]
