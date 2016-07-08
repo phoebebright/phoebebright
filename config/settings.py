@@ -128,10 +128,10 @@ STATICFILES_FINDERS = [
 #     os.path.join(PROJECT_DIR, 'static'),
 # ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'shared_static')
+STATIC_ROOT = os.path.join(PROJECT_DIR, 'shared_static')
 STATIC_URL = '/shared_static/'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = os.path.join(PROJECT_DIR, 'media')
 MEDIA_URL = '/media/'
 
 
@@ -141,7 +141,7 @@ WAGTAIL_SITE_NAME = "mystie"
 
 # Base URL to use when referring to full URLs within the Wagtail admin backend -
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
-BASE_URL = 'http://example.com'
+BASE_URL = 'http://phoebebright.com'
 
 try:
     from .settings_local import *
