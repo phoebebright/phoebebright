@@ -21,6 +21,7 @@ urlpatterns = [
 
 
     url(r'', include('puput.urls')),
+    url(r'', include(wagtail_urls))
 ]
 
 
