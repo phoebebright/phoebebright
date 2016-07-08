@@ -128,10 +128,10 @@ STATICFILES_FINDERS = [
 #     os.path.join(PROJECT_DIR, 'static'),
 # ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'shared_static')
+STATIC_ROOT = os.path.join(PROJECT_DIR, 'shared_static')
 STATIC_URL = '/shared_static/'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = os.path.join(PROJECT_DIR, 'media')
 MEDIA_URL = '/media/'
 
 
