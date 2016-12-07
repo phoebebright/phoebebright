@@ -1,0 +1,87 @@
+/*
+Error: Invalid US-ASCII character "\xE2"
+        on line 104 of _tables.scss
+        from line 23 of bootstrap.scss
+        from line 8 of bootstrap-flex.scss
+
+99: @include table-row-variant(danger, $state-danger-bg);
+100: 
+101: 
+102: // Inverse styles
+103: //
+104: // Same table markup, but inverted color scheme—dark background and light text.
+105: 
+106: .thead-inverse {
+107:   th {
+108:     color: #fff;
+109:     background-color: $gray-dark;
+
+Backtrace:
+_tables.scss:104
+bootstrap.scss:23
+bootstrap-flex.scss:8
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/util.rb:1297:in `rescue in block in find_encoding_error'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/util.rb:1294:in `block in find_encoding_error'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/util.rb:1293:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/util.rb:1293:in `each_with_index'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/util.rb:1293:in `find_encoding_error'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/util.rb:902:in `check_sass_encoding'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/engine.rb:433:in `check_encoding!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/engine.rb:389:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/engine.rb:309:in `to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:324:in `block in visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/stack.rb:88:in `block in with_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/stack.rb:88:in `with_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:326:in `block (2 levels) in visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:326:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/stack.rb:88:in `block in with_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/stack.rb:88:in `with_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:361:in `watch_or_update'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/exec/base.rb:52:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/exec/base.rb:19:in `parse!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/bin/scss:13:in `<top (required)>'
+/usr/local/bin/scss:23:in `load'
+/usr/local/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid US-ASCII character \"\xE2\"\A         on line 104 of _tables.scss\A         from line 23 of bootstrap.scss\A         from line 8 of bootstrap-flex.scss\A \A 99: @include table-row-variant(danger, $state-danger-bg);\A 100: \A 101: \A 102: // Inverse styles\A 103: //\A 104: // Same table markup, but inverted color scheme—dark background and light text.\A 105: \A 106: .thead-inverse {\A 107:   th {\A 108:     color: #fff;\A 109:     background-color: $gray-dark;"; }

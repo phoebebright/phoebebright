@@ -52,9 +52,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    'theme',
     'puput',
-
+    'viz',
 ]
 
 PUPUT_AS_PLUGIN = True
