@@ -1,0 +1,94 @@
+// main colors
+$color_main_1: #bea175;
+$color_main_2: #8c9176;
+$color_main_3: #7d88ab;
+$color_main_4: #77b0b3;
+$color_main_5: #c18d8d;
+
+// bootstrap colors
+$color_primary: #0275D8;
+$color_success: #5CB85C;
+$color_info: #5BC0DE;
+$color_warning: #F0AD4E;
+$color_danger: #D9534F;
+
+// dark colors
+$color_dark_1: #1c1c1c;
+$color_dark_2: lighten($color_dark_1, 4%);
+$color_dark_3: lighten($color_dark_1, 8%);
+$color_dark_4: lighten($color_dark_1, 12%);
+
+// gray colors
+$color_gray_1: #FAFAFA;
+$color_gray_2: darken($color_gray_1, 1%);
+$color_gray_3: darken($color_gray_1, 2%);
+$color_gray_4: darken($color_gray_1, 3%);
+
+// main colors list
+$colors: (
+    "main-1"  : $color_main_1,
+    "main-2"  : $color_main_2,
+    "main-3"  : $color_main_3,
+    "main-4"  : $color_main_4,
+    "main-5"  : $color_main_5,
+    "primary" : $color_primary,
+    "success" : $color_success,
+    "info"    : $color_info,
+    "warning" : $color_warning,
+    "danger"  : $color_danger,
+    "white"   : #fff,
+    "black"   : #000,
+    "dark-1"  : $color_dark_1,
+    "dark-2"  : $color_dark_2,
+    "dark-3"  : $color_dark_3,
+    "dark-4"  : $color_dark_4,
+    "gray-1"  : $color_gray_1,
+    "gray-2"  : $color_gray_2,
+    "gray-3"  : $color_gray_3,
+    "gray-4"  : $color_gray_4
+);
+
+// Page Border
+$page_border_size: 35px;
+$page_border_size_md: 25px;
+$page_border_size_sm: 15px;
+$page_border_color: $color_dark_1;
+
+// Share Place
+$share_place_height: 200px;
+
+// page nav
+$page_nav_width: 190px;
+$page_nav_height: 130px;
+$page_nav_arrow_width: 30px;
+$page_nav_2_width: 340px;
+$page_nav_2_height: 130px;
+$page_nav_2_arrow_width: 30px;
+
+// audio player
+$audio_player_height: 62px;
+$audio_player_playlist_height: 250px;
+$audio_player_mobile_height: 170px;
+
+// fonts
+// $font_headings: 'Libre Baskerville', serif;
+$font_headings: 'Philosopher', sans-serif;
+$font_body: 'Cantarell', sans-serif;
+$html_font_size: 15px;
+$body_line_height: 1.7;
+
+// media variables
+$media_xxs:           '(max-width: 543px)';
+$media_xs:            '(max-width: 767px)';
+$media_sm:            '(min-width: 767px) and (max-width: 991px)';
+$media_md:            '(min-width: 992px) and (max-width: 1199px)';
+$media_lg:            '(min-width: 1200)';
+
+// additional variables
+$media_smaller_xs:    '(max-width: 767px)';
+$media_smaller_sm:    '(max-width: 991px)';
+$media_smaller_md:    '(max-width: 1199px)';
+$media_larger_xs:     '(min-width: 544px)';
+$media_larger_sm:     '(min-width: 768px)';
+$media_larger_md:     '(min-width: 992px)';
+$media_larger_lg:     '(min-width: 1200px)';
